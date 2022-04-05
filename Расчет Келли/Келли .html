@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Расчет суммы ставки методом Келли</title>
+    <link rel="stylesheet" href="Келли%20css.css">
+</head>
+<body>
+<div>
+    <h1>Расчет суммы ставки методом Келли</h1>
+</div>
+
+<div class="parent">
+   <form>
+       <div class="parent-item">
+           <label>Коэффициент "К"</label>
+           <input class="k">
+       </div>
+      <div class="parent-item">
+          <label>Вероятность "P"</label>
+          <input class="p">
+      </div>
+
+       <div class="parent-item">
+           <label>Ваш банк "B"</label>
+           <input class="b">
+       </div>
+
+       <div class="parent-button">
+           <button class="button">Расчитать</button>
+       </div>
+
+   </form>
+
+</div>
+<main class="parent-main">
+   <h1 class="summa">Сумма:</h1>
+</main>
+<div class="parent-main_total">
+    <h1 class="total">Кол-во:<p id="totalPI"></p></h1>
+    <h1 class="total">Сред.сум:<p id="totalSum"></p></h1>
+    <h1 class="total">Сред.кэф:<p id="totalK"></p></h1>
+    <h1 class="total">Сред.вер:<p id="totalP"></p></h1>
+    <h1 class="total">Мат.ожид:<p id="totalM"></p></h1>
+    <h1 class="total">Общая.су:<p id="totalO"></h1>
+</div>
+<footer class="footer">
+    <div>
+            <ol>"К" - коэффициент</ol>
+            <ol>"P" - вероятность прохода ставки</ol>
+            <ol> "В" - мой банк</ol>
+    </div>
+</footer>
+<script src="Келли%20js.js"></script>
+</body>
+</html>

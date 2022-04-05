@@ -1,0 +1,106 @@
+.parent-item{
+    border:1px solid #000000;
+    border-radius: 5px;
+    height: 100px;
+    width: 250px;
+    padding: 4px;
+}
+.parent-button{
+    position: relative;
+    left: 90px;
+    top:15px;
+}
+
+.parent-main{
+    position: absolute;
+    top:80px;
+    left: 300px;
+    width: 250px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius:5px ;
+    padding-bottom: 0px;
+}
+.summa{
+    padding: 0;
+    margin: 0;
+}
+.pi{
+    position: relative;
+    top:-28px;
+    left: 115px;
+    width: 70px;
+    border-bottom:1px solid #000000;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pi1{
+    position: relative;
+    top:-28px;
+    left: 115px;
+    width: 70px;
+    border-bottom:1px solid #000000;
+    margin: 0;
+    font-size: 20px;
+    background-color: #00FF7F;
+    cursor: pointer;
+}
+#totalPI{
+    position: relative;
+    left: 115px;
+    top:-35px;
+    margin: 0;
+}
+#totalSum{
+    position: relative;
+    left: 145px;
+    top:-35px;
+    margin: 0;
+}
+#totalK{
+    position: relative;
+    left: 145px;
+    top:-35px;
+    margin: 0;
+}
+#totalP{
+    position: relative;
+    left: 145px;
+    top:-35px;
+    margin: 0;
+}
+#totalM{
+    position: relative;
+    left: 149px;
+    top:-35px;
+    margin: 0;
+}
+#totalO{
+    position: relative;
+    left: 149px;
+    top:-35px;
+    margin: 0;
+}
+.total{
+    margin: 0;
+}
+
+.parent-main_total{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top:80px;
+    left: 600px;
+    border:1px solid #000000 ;
+    border-radius: 5px;
+    padding: 5px;
+}
+.footer{
+    position: relative;
+    bottom: -350px;
+}
+body{
+    height: 100vh;
+    font-family: Monotype Corsiva;
+}
